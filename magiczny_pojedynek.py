@@ -130,7 +130,7 @@ def chochlik():
     print('Na szczęście okazał się dobrym chochlikiem i podarował Ci 5 hp.')
     bohater['atak'] -= 15
     bohater['hp'] += 5
-    print(f"masz teraz {bohater['atak']} ataku i {bohater['hp']} hp")
+    print(f"Teraz masz {bohater['atak']} ataku i {bohater['hp']} hp")
 def jednorozec():
     print('Na twojej drodze pojawił się jednorożec.')
     print('Postanowił Ci oddać połowe swojego życia, abyś mógł dalej walczyć ze złem.')
